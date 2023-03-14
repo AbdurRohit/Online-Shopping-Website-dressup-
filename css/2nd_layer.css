@@ -1,0 +1,343 @@
+.banner_boys_jeans {
+    background: url(/Boys/Jeans/Jeans\ Background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.banner_boys_shirt {
+    background: url(/Boys/Shirts/Shirt\ Background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.banner_boys_trousers {
+    background: url(/Boys/Trousers/Trousres\ Background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.banner_boys_tshirt {
+    background: url(/Boys/T_shirt/TShirt_background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.banner_casuals {
+    background: url(/Shirt/Casuals/casual-wallpaper1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.banner_formals {
+    background: url(/Shirt/Formal/Formal-wallpaper.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.banner_girls_jeans {
+    background: url(/girls/girls-jeans/jeans-banner.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.banner_girls_kurti {
+    background: url(/girls/girls-kurti/banner.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.banner_girls_skirt {
+    background: url(/girls/girls-skirt/Girls\ Skirt.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.banner_girls_tshirt {
+    background: url(/girls/girls-tshirt/T\ shirt\ banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.banner_girls_top {
+    background: url(/girls/girls-top/girl\ wallpaper.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.banner_jacket {
+    background: url(/Jackets/banner-1_3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.banner_jumpsuit {
+    background: url(/women/jumpsuit/jumpsuits_banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.banner_kurtas {
+    background: url(/Shirt/kurtas/wholesalemenbanner1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.banner_ladies_jacket {
+    background: url(/women/jacket/jacket_banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.banner_ladies_jeans {
+    background: url(/women/jeans/jeans_banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.banner_ladies_top {
+    background: url(/women/top/top_banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.banner_ladies_tshirt {
+    background: url(/women/tis/tis_banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.banner_saree {
+    background: url(/women/saree/Saree_banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.banner_skirts {
+    background: url(/women/skirts/SkirtsBanner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.banner_sweater {
+    background: url(/Sweater/Sweater.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.banner_t_shirt {
+    background: url(/Shirt/T-Shirt/tshirt\ wallpaper.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.banner_trouser_casual {
+    background: url(/Trouser/Casuals/casual-wallp.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.banner_trouser_jeans {
+    background: url(/Trouser/Jeans/jeans-wallp.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 100px;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.banner-text {
+    margin-top: 20%;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+}
+
+h1 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-family: consolas;
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 49, 121, 1) 70%, rgba(0, 155, 255, 1) 90%);
+    color: aqua;
+    opacity: 0.8;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cat {
+    border: 1.5px solid rgba(0, 204, 255, 0.76);
+    border-radius: 10px;
+    flex-shrink: 3;
+    transition: 0.5s;
+    padding: 14px;
+    margin: 30px 20px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.cat:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    z-index: 2;
+    background-color: rgba(0, 204, 255, 0.76);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.cat .text {
+
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+}

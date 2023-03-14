@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="eng">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <title>Online Fashion Store | Dress Up</title>
+    <link rel="icon" type="image/png" href="../img/bowtie.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/footer_reg.css">
+    <link rel="stylesheet" href="../css/reg.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+        function matchpass() {
+            var firstpassword = document.f1.p1.value;
+            var secondpassword = document.f1.p2.value;
+            var contact = document.f1.con.value;
+            var pin1 = document.f1.pin.value;
+            var x = document.f1.email.value;
+            var atposition = x.indexOf("@");
+            var dotposition = x.lastIndexOf(".");
+            if (firstpassword != secondpassword) {
+                /*alert("Password Missmatched !!!");*/
+                swal("Password Missmatched !!!", "", "warning");
+                return false;
+            }
+            else if (firstpassword.length < 8) {
+                /*alert("Password must be atleat 8 character.");*/
+                swal("Password must be atleat 8 character.", "", "warning");
+                return false;
+            }
+            else if (contact.length != 10) {
+                /*alert("Contact must be of 10 digit");*/
+                swal("Contact must be of 10 digit", "", "warning");
+                return false;
+            }
+            else if (pin1.length != 6) {
+                /*alert("Pin Code must be of 6 digit");*/
+                swal("Pin Code must be of 6 digit", "", "warning");
+                return false;
+            }
+
+            else if (atposition < 1 || dotposition < atposition + 2 || dotposition + 2 >= x.length) {
+                /*alert("Invalid E-mail ID")*/
+                swal("Invalid E-mail ID", "", "warning");
+                return false;
+            }
+            else {
+                return true;
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+    <header>
+        <a href="#"><img class="logo" src="../img/log.png" alt="Logo"></a>
+
+    </header>
+    <div class="reg">
+        <h1>Register</h1>
+        <form name="f1" action="Reg.jsp" method="post" onsubmit="return matchpass()">
+            <div class="out">
+                <div class="txt">
+                    <input type="text" name="fname" value="" required>
+                    <div class="line"></div>
+                    <label>First Name</label>
+                </div>
+                <div class="txt">
+                    <input type="text" name="lname" value="" required>
+                    <div class="line"></div>
+                    <label>Last Name</label>
+                </div>
+                <div class="txt">
+                    <input type="text" name="email" value="" required>
+                    <div class="line"></div>
+                    <label>Email-ID</label>
+                </div>
+                <div class="txt">
+                    <input type="text" name="con" value="" required>
+                    <div class="line"></div>
+                    <label>Contact No.</label>
+                </div>
+                <div class="txt">
+                    <input type="text" name="bday" value="">
+                    <div class="line"></div>
+                    <label>Date of Birth (Ex. 01-jan-01)</label>
+                </div>
+                <div class="txt">
+                    <select name="gender" id="gender" required>
+                        <option value="none" selected disabled hidden>Select</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Others">Others</option>
+                    </select>
+                    <div class="line"></div>
+                    <label>Gender</label>
+                </div>
+                <div class="txt">
+                    <input type="text" name="add" value="" required>
+                    <div class="line"></div>
+                    <label>Address</label>
+                </div>
+
+                <div class="txt">
+                    <input type="text" name="pin" value="" required>
+                    <div class="line"></div>
+                    <label>Pin Code</label>
+                </div>
+                <div class="txt">
+                    <input type="password" name="p1" required>
+                    <div class="line"></div>
+                    <label>Create Password</label>
+                </div>
+                <div class="txt">
+                    <input type="password" name="p2" required />
+                    <div class="line"></div>
+                    <label>Confirm Password</label>
+                </div>
+
+                <input type="reset" value="Undo">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+        <br><br>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h3>Navigation Links</h3>
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="T-shirt.html">Mens T-Shirt</a></li>
+                        <li><a href="ladies_tshirt.html">Womens T-Shirt</a></li>
+                        <li><a href="about.html">About us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <span class="span">Behind Urbana Complex Near Ruby General Hospital, Nazirabad Rd,
+                        Uchhepota. <br> Kolkata - 700150</span>
+                </div>
+                <div class="footer-col">
+                    <h3>Customer Support</h3>
+                    <span class="span">
+                        Phone Number: +91 7278953135 <br>
+                        Phone Number: +91 8617708968</span>
+                </div>
+                <div class="footer-col">
+                    <h3>follow us</h3>
+                    <ul>
+                        <li class="ico"><a href="https://www.facebook.com/profile.php?id=100008921343239"><i
+                                    class="fa-brands fa-facebook"></i></a></li>
+                        <li class="ico"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li class="ico"><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

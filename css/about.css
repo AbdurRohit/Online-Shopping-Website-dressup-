@@ -1,0 +1,85 @@
+.wrapper {
+    margin: 10%;
+
+    align-items: center;
+    left: 50%;
+    display: inline-block;
+
+}
+
+.wrapper h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 52px;
+    margin-bottom: 65px;
+    text-align: center;
+    color: #81c644;
+    text-decoration: underline;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+.team .team_member {
+
+    margin: 10px;
+    margin-bottom: 60px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: black;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.team .team_member:hover {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+}
+
+.team .team_member h3 {
+    color: #6F00FF;
+    font-size: 24px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.team .team_member p.role {
+    color: black;
+    margin: 12px 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Karla', sans-serif;
+    text-decoration: underline;
+
+}
+
+p {
+    font-family: 'Mulish', sans-serif;
+}
+
+.team .team_member .team_img {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.team .team_member .team_img img {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 50px;
+}
