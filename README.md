@@ -1,5 +1,6 @@
 # Online-Shopping-Website-dressup-
-This is an online shopping website, it contains all the mentioned categories of products. 
+Website link : https://650c5c046be4a442375c64c4--roaring-frangipane-d791fd.netlify.app/
+This is an online shopping website, that contains all the mentioned categories of products. 
 How to use =>
 1. Clone the repo
 2. Import the MySQL database (install JDBC connectors to connect the databases)
