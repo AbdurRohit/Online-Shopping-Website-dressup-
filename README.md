@@ -8,6 +8,4 @@ How to use =>
 4. Now all set. You are ready to go.
 
 The technology used here is JSP (Java Servlet Programming).
-It's an outdated and complicated technology I would recommend not cloning it in case you want your brain-cell
-fried.
 
