@@ -9,7 +9,7 @@ Follow these simple steps to get started with DressUp:
 1. **Clone the Repository:**
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/AbdurRohit/Online-Shopping-Website-dressup-.git
     ```
 
 2. **Import the MySQL Database:**  
